@@ -1,0 +1,20 @@
+.per-form-control input {
+    border: 0.1px solid;
+    border-color: red;
+  }
+  
+  .per-form-control.ok input {
+    border-color: rgb(30, 133, 64);
+  }
+  
+  small {
+    color: red;
+  }
+  
+  .per-form-control small {
+    visibility: hidden;
+  }
+  
+  .per-form-control.falla small {
+    visibility: visible;
+  }

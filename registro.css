@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/fond.jpg");
+    
+
+}
+
+.form{
+    width: 400px;
+    background: #800000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+}
+.form h4{
+font-size: 22px;
+margin-bottom: 20px;
+}
+.imput{
+    width: 100%;
+    background: #5f0000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+    border: 1px solid #5f0000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+}
+::placeholder{
+    color: rgb(210, 217, 223);
+}
+.form p{
+height: 40px;
+text-align: center;
+font-size: 18px;
+}
+.form a{
+    color: white;
+    text-decoration: none;
+}
+.form a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.bot{
+    width: 100%;
+    background: #5f0000;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 16px;
+}
+.form-control.falla input{
+    border:0.1px solid ;
+    border-color: red;
+}
+.form-control.ok input{
+    border:0.1px solid ;
+    border-color: rgb(30, 133, 64);
+}
+
+small{
+    color: red;
+}
+.form-control small{
+    visibility: hidden;
+}
+.form-control.falla small{
+    visibility: visible;
+}
